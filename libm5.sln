@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libasm", "libasm\libasm.vcxproj", "{D19E5F12-3FE6-48D5-B776-F9A05D25B609}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libm5", "lib5\lib5.vcxproj", "{B0A8FCCC-B177-4778-BBDD-CFE8BE7CFF65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D19E5F12-3FE6-48D5-B776-F9A05D25B609}.Debug|x86.ActiveCfg = Release|Win32
+		{D19E5F12-3FE6-48D5-B776-F9A05D25B609}.Debug|x86.Build.0 = Release|Win32
+		{D19E5F12-3FE6-48D5-B776-F9A05D25B609}.Release|x86.ActiveCfg = Release|Win32
+		{D19E5F12-3FE6-48D5-B776-F9A05D25B609}.Release|x86.Build.0 = Release|Win32
+		{B0A8FCCC-B177-4778-BBDD-CFE8BE7CFF65}.Debug|x86.ActiveCfg = Debug|Win32
+		{B0A8FCCC-B177-4778-BBDD-CFE8BE7CFF65}.Debug|x86.Build.0 = Debug|Win32
+		{B0A8FCCC-B177-4778-BBDD-CFE8BE7CFF65}.Release|x86.ActiveCfg = Release|Win32
+		{B0A8FCCC-B177-4778-BBDD-CFE8BE7CFF65}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3271A8B5-5F8B-4840-B4D3-2C7D5CEAAFC1}
+	EndGlobalSection
+EndGlobal

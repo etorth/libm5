@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B0A8FCCC-B177-4778-BBDD-CFE8BE7CFF65}</ProjectGuid>
+    <RootNamespace>lib5</RootNamespace>
+    <ProjectName>libm5</ProjectName>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>$(SolutionDir)_link\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_output\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)_link\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)_output\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalOptions>/SAFESEH:NO %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\lib32\cApp.h" />
+    <ClInclude Include="..\lib32\cAstar.h" />
+    <ClInclude Include="..\lib32\cInput.h" />
+    <ClInclude Include="..\lib32\cInputDevice.h" />
+    <ClInclude Include="..\lib32\cLink2.h" />
+    <ClInclude Include="..\lib32\cLoop.h" />
+    <ClInclude Include="..\lib32\cWindSoul.h" />
+    <ClInclude Include="..\lib32\efolder.h" />
+    <ClInclude Include="..\lib32\_dik.h" />
+    <ClInclude Include="..\lib32\_inc.h" />
+    <ClInclude Include="..\lib32\_window.h" />
+    <ClInclude Include="..\libcc\cWas.h" />
+    <ClInclude Include="..\libcc\s565.h" />
+    <ClInclude Include="..\libcc\Vec2.h" />
+    <ClInclude Include="..\libcc\_cpp.h" />
+    <ClInclude Include="..\libcc\_qcode.h" />
+    <ClInclude Include="..\libcc\_string.h" />
+    <ClInclude Include="..\libfolder\cFolder.h" />
+    <ClInclude Include="..\libjpeg\JPEG.H" />
+    <ClInclude Include="..\libjpeg\JPEGINT.H" />
+    <ClInclude Include="..\libm5\AI.h" />
+    <ClInclude Include="..\libm5\A_Start.h" />
+    <ClInclude Include="..\libm5\Canvas5.h" />
+    <ClInclude Include="..\libm5\ChangeColor.h" />
+    <ClInclude Include="..\libm5\global.h" />
+    <ClInclude Include="..\libm5\Input5.h" />
+    <ClInclude Include="..\libm5\Interface.h" />
+    <ClInclude Include="..\libm5\Interface2.h" />
+    <ClInclude Include="..\libm5\item.h" />
+    <ClInclude Include="..\libm5\Map.h" />
+    <ClInclude Include="..\libm5\MyMath.h" />
+    <ClInclude Include="..\libm5\MyScript.h" />
+    <ClInclude Include="..\libm5\mysound.h" />
+    <ClInclude Include="..\libm5\MyTest.h" />
+    <ClInclude Include="..\libm5\Object5.h" />
+    <ClInclude Include="..\libm5\PetData.h" />
+    <ClInclude Include="..\libm5\Script.h" />
+    <ClInclude Include="..\libm5\Skill.h" />
+    <ClInclude Include="..\libm5\State.h" />
+    <ClInclude Include="..\libm5\trigger.h" />
+    <ClInclude Include="..\libm5\trigger2.h" />
+    <ClInclude Include="..\libm5\_inc.h" />
+    <ClInclude Include="..\libutil\cDye.h" />
+    <ClInclude Include="..\libutil\cGame.h" />
+    <ClInclude Include="..\libutil\cMapReader.h" />
+    <ClInclude Include="..\libutil\cMapRender.h" />
+    <ClInclude Include="..\libutil\cReader.h" />
+    <ClInclude Include="..\libutil\cSp.h" />
+    <ClInclude Include="..\libutil\cWdfs.h" />
+    <ClInclude Include="..\libutil\_inc.h" />
+    <ClInclude Include="..\libwindsoul\achannel.h" />
+    <ClInclude Include="..\libwindsoul\bmpmem.h" />
+    <ClInclude Include="..\libwindsoul\canvasin.h" />
+    <ClInclude Include="..\libwindsoul\edgechar.h" />
+    <ClInclude Include="..\libwindsoul\fontint.h" />
+    <ClInclude Include="..\libwindsoul\geoint.h" />
+    <ClInclude Include="..\libwindsoul\objheap.h" />
+    <ClInclude Include="..\libwindsoul\objint.h" />
+    <ClInclude Include="..\libwindsoul\sndint.h" />
+    <ClInclude Include="..\libwindsoul\sptcache.h" />
+    <ClInclude Include="..\libwindsoul\textint.h" />
+    <ClInclude Include="..\libwindsoul\windsoul.h" />
+    <ClInclude Include="..\libwindsoul\wsaddon.h" />
+    <ClInclude Include="..\libwindsoul\wsalpha.h" />
+    <ClInclude Include="..\libwindsoul\wsbitmap.h" />
+    <ClInclude Include="..\libwindsoul\wscache.h" />
+    <ClInclude Include="..\libwindsoul\wscanvas.h" />
+    <ClInclude Include="..\libwindsoul\wserror.h" />
+    <ClInclude Include="..\libwindsoul\wsfile.h" />
+    <ClInclude Include="..\libwindsoul\wsfont.h" />
+    <ClInclude Include="..\libwindsoul\wsgeo.h" />
+    <ClInclude Include="..\libwindsoul\wshelper.h" />
+    <ClInclude Include="..\libwindsoul\wsjpeg.h" />
+    <ClInclude Include="..\libwindsoul\wsloz.h" />
+    <ClInclude Include="..\libwindsoul\wsmask.h" />
+    <ClInclude Include="..\libwindsoul\wsmemory.h" />
+    <ClInclude Include="..\libwindsoul\wsound.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsprite.h" />
+    <ClInclude Include="..\libwindsoul\wsrandom.h" />
+    <ClInclude Include="..\libwindsoul\wsrich.h" />
+    <ClInclude Include="..\libwindsoul\wsstring.h" />
+    <ClInclude Include="..\libwindsoul\wsterra.h" />
+    <ClInclude Include="..\libwindsoul\wstimer.h" />
+    <ClInclude Include="..\libwindsoul\wstips.h" />
+    <ClInclude Include="..\libwindsoul\wsurface.h" />
+    <ClInclude Include="..\libwindsoul\wswitch.h" />
+    <ClInclude Include="..\libwindsoul\wszoom.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib32\cApp.cpp" />
+    <ClCompile Include="..\lib32\cAstar.cpp" />
+    <ClCompile Include="..\lib32\cInput.cpp" />
+    <ClCompile Include="..\lib32\cInputDevice.cpp" />
+    <ClCompile Include="..\lib32\cLink2.cpp" />
+    <ClCompile Include="..\lib32\cLoop.cpp" />
+    <ClCompile Include="..\lib32\cWindSoul.cpp" />
+    <ClCompile Include="..\lib32\efolder.cpp" />
+    <ClCompile Include="..\libcc\cWas.cpp" />
+    <ClCompile Include="..\libcc\s565.cpp" />
+    <ClCompile Include="..\libfolder\cFolder.cpp" />
+    <ClCompile Include="..\libjpeg\BMP.c" />
+    <ClCompile Include="..\libjpeg\compress.c" />
+    <ClCompile Include="..\libjpeg\decode.c" />
+    <ClCompile Include="..\libjpeg\HUFFMAN.C" />
+    <ClCompile Include="..\libjpeg\IDCT.C" />
+    <ClCompile Include="..\libjpeg\IDCT2D.C" />
+    <ClCompile Include="..\libjpeg\JPEG.C" />
+    <ClCompile Include="..\libjpeg\pack.c" />
+    <ClCompile Include="..\libjpeg\QUANTY.C" />
+    <ClCompile Include="..\libjpeg\RGB.C" />
+    <ClCompile Include="..\libjpeg\SEGMENT.C" />
+    <ClCompile Include="..\libm5\AI.cpp" />
+    <ClCompile Include="..\libm5\AI5.cpp" />
+    <ClCompile Include="..\libm5\A_Start.cpp" />
+    <ClCompile Include="..\libm5\Canvas5.cpp" />
+    <ClCompile Include="..\libm5\ChangeColor.cpp" />
+    <ClCompile Include="..\libm5\Input5.cpp" />
+    <ClCompile Include="..\libm5\Interface.cpp" />
+    <ClCompile Include="..\libm5\Interface2.cpp" />
+    <ClCompile Include="..\libm5\item.cpp" />
+    <ClCompile Include="..\libm5\item5.cpp" />
+    <ClCompile Include="..\libm5\main5.cpp" />
+    <ClCompile Include="..\libm5\Map.cpp" />
+    <ClCompile Include="..\libm5\MyMath.cpp" />
+    <ClCompile Include="..\libm5\MyScript.cpp" />
+    <ClCompile Include="..\libm5\mysound.cpp" />
+    <ClCompile Include="..\libm5\MyTest.cpp" />
+    <ClCompile Include="..\libm5\Object2.cpp" />
+    <ClCompile Include="..\libm5\Object5.cpp" />
+    <ClCompile Include="..\libm5\PetData.cpp" />
+    <ClCompile Include="..\libm5\Script.cpp" />
+    <ClCompile Include="..\libm5\Skill.cpp" />
+    <ClCompile Include="..\libm5\Skill5.cpp" />
+    <ClCompile Include="..\libm5\State.cpp" />
+    <ClCompile Include="..\libm5\trigger.cpp" />
+    <ClCompile Include="..\libm5\trigger2.cpp" />
+    <ClCompile Include="..\libutil\cDye.cpp" />
+    <ClCompile Include="..\libutil\cGame.cpp" />
+    <ClCompile Include="..\libutil\cMapReader.cpp" />
+    <ClCompile Include="..\libutil\cMapRender.cpp" />
+    <ClCompile Include="..\libutil\cReader.cpp" />
+    <ClCompile Include="..\libutil\cSp.cpp" />
+    <ClCompile Include="..\libutil\cWdfs.cpp" />
+    <ClCompile Include="..\libwindsoul\achannel.cpp" />
+    <ClCompile Include="..\libwindsoul\bitmap.cpp" />
+    <ClCompile Include="..\libwindsoul\blit.cpp" />
+    <ClCompile Include="..\libwindsoul\CANVAS.CPP" />
+    <ClCompile Include="..\libwindsoul\datafile.cpp" />
+    <ClCompile Include="..\libwindsoul\font.cpp" />
+    <ClCompile Include="..\libwindsoul\gdi.cpp" />
+    <ClCompile Include="..\libwindsoul\geometry.cpp" />
+    <ClCompile Include="..\libwindsoul\memory.cpp" />
+    <ClCompile Include="..\libwindsoul\object.cpp" />
+    <ClCompile Include="..\libwindsoul\rand.cpp" />
+    <ClCompile Include="..\libwindsoul\readbmp.cpp" />
+    <ClCompile Include="..\libwindsoul\readtga.cpp" />
+    <ClCompile Include="..\libwindsoul\text.cpp" />
+    <ClCompile Include="..\libwindsoul\timer.cpp" />
+    <ClCompile Include="..\libwindsoul\tips.cpp" />
+    <ClCompile Include="..\libwindsoul\Wsound.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\WSTRING.CPP" />
+    <ClCompile Include="..\libwindsoul\wsurface.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lib5.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\libwindsoul\alpha16.obj" />
+    <Object Include="..\libwindsoul\blit16.obj" />
+    <Object Include="..\libwindsoul\box16.obj" />
+    <Object Include="..\libwindsoul\font16.obj" />
+    <Object Include="..\libwindsoul\string.obj" />
+    <Object Include="..\libwindsoul\surface.obj" />
+    <Object Include="..\libwindsoul\text16.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\libasm\libasm.vcxproj">
+      <Project>{d19e5f12-3fe6-48d5-b776-f9a05d25b609}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ra2.ico" />
+    <Image Include="xyq.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

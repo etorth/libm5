@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libutil">
+      <UniqueIdentifier>{2fbf96f0-5c76-4cb3-863f-a5127462b8d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libcc">
+      <UniqueIdentifier>{88798792-e557-42ca-a0ff-35f052fd3a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libwindsoul">
+      <UniqueIdentifier>{f1a5a4bc-7604-4b39-9b0e-e434c11bc86d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libjpeg">
+      <UniqueIdentifier>{8b3d1714-3bfa-4e15-8b23-e3e3d3372c9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib32">
+      <UniqueIdentifier>{286cb971-7ba2-4ac6-8a10-b59a96c22a22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libfolder">
+      <UniqueIdentifier>{31b18d93-a7db-45a9-ad94-a690d0c57f90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libutil\cGame.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMapReader.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cMapRender.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cSp.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cWdfs.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libm5\_inc.h" />
+    <ClInclude Include="..\libm5\A_Start.h" />
+    <ClInclude Include="..\libm5\AI.h" />
+    <ClInclude Include="..\libm5\Canvas5.h" />
+    <ClInclude Include="..\libm5\ChangeColor.h" />
+    <ClInclude Include="..\libm5\global.h" />
+    <ClInclude Include="..\libm5\Input5.h" />
+    <ClInclude Include="..\libm5\Interface.h" />
+    <ClInclude Include="..\libm5\Interface2.h" />
+    <ClInclude Include="..\libm5\item.h" />
+    <ClInclude Include="..\libm5\Map.h" />
+    <ClInclude Include="..\libm5\MyMath.h" />
+    <ClInclude Include="..\libm5\MyScript.h" />
+    <ClInclude Include="..\libm5\mysound.h" />
+    <ClInclude Include="..\libm5\MyTest.h" />
+    <ClInclude Include="..\libm5\Object5.h" />
+    <ClInclude Include="..\libm5\PetData.h" />
+    <ClInclude Include="..\libm5\Script.h" />
+    <ClInclude Include="..\libm5\Skill.h" />
+    <ClInclude Include="..\libm5\State.h" />
+    <ClInclude Include="..\libm5\trigger.h" />
+    <ClInclude Include="..\libm5\trigger2.h" />
+    <ClInclude Include="..\libcc\s565.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cDye.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\cWas.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\_inc.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\achannel.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\bmpmem.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\canvasin.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\edgechar.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\fontint.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\geoint.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\objheap.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\objint.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\sndint.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\sptcache.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\textint.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\windsoul.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsaddon.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsalpha.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsbitmap.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wscache.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wscanvas.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wserror.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsfile.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsfont.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsgeo.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wshelper.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsjpeg.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsloz.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsmask.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsmemory.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsound.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsprite.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsrandom.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsrich.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsstring.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsterra.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wstimer.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wstips.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wsurface.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wswitch.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libwindsoul\wszoom.h">
+      <Filter>libwindsoul</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\JPEG.H">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libjpeg\JPEGINT.H">
+      <Filter>libjpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\_dik.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\_inc.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\_window.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cApp.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cAstar.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cInput.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cInputDevice.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cLink2.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cLoop.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\cWindSoul.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib32\efolder.h">
+      <Filter>lib32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_cpp.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_string.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\Vec2.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libcc\_qcode.h">
+      <Filter>libcc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\libfolder\cFolder.h">
+      <Filter>libfolder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libutil\cReader.h">
+      <Filter>libutil</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\libutil\cGame.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMapReader.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cMapRender.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cSp.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cWdfs.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libm5\A_Start.cpp" />
+    <ClCompile Include="..\libm5\AI.cpp" />
+    <ClCompile Include="..\libm5\AI5.cpp" />
+    <ClCompile Include="..\libm5\Canvas5.cpp" />
+    <ClCompile Include="..\libm5\ChangeColor.cpp" />
+    <ClCompile Include="..\libm5\Input5.cpp" />
+    <ClCompile Include="..\libm5\Interface.cpp" />
+    <ClCompile Include="..\libm5\Interface2.cpp" />
+    <ClCompile Include="..\libm5\item.cpp" />
+    <ClCompile Include="..\libm5\item5.cpp" />
+    <ClCompile Include="..\libm5\main5.cpp" />
+    <ClCompile Include="..\libm5\Map.cpp" />
+    <ClCompile Include="..\libm5\MyMath.cpp" />
+    <ClCompile Include="..\libm5\MyScript.cpp" />
+    <ClCompile Include="..\libm5\mysound.cpp" />
+    <ClCompile Include="..\libm5\MyTest.cpp" />
+    <ClCompile Include="..\libm5\Object2.cpp" />
+    <ClCompile Include="..\libm5\Object5.cpp" />
+    <ClCompile Include="..\libm5\PetData.cpp" />
+    <ClCompile Include="..\libm5\Script.cpp" />
+    <ClCompile Include="..\libm5\Skill.cpp" />
+    <ClCompile Include="..\libm5\Skill5.cpp" />
+    <ClCompile Include="..\libm5\State.cpp" />
+    <ClCompile Include="..\libm5\trigger.cpp" />
+    <ClCompile Include="..\libm5\trigger2.cpp" />
+    <ClCompile Include="..\libcc\s565.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cDye.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libcc\cWas.cpp">
+      <Filter>libcc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\achannel.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\bitmap.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\blit.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\CANVAS.CPP">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\datafile.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\font.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\gdi.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\geometry.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\memory.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\object.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\rand.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\readbmp.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\readtga.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\text.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\timer.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\tips.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\Wsound.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\WSTRING.CPP">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libwindsoul\wsurface.cpp">
+      <Filter>libwindsoul</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\BMP.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\compress.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\decode.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\HUFFMAN.C">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\IDCT.C">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\IDCT2D.C">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\JPEG.C">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\pack.c">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\QUANTY.C">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\RGB.C">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libjpeg\SEGMENT.C">
+      <Filter>libjpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\cApp.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\cAstar.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\cInput.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\cInputDevice.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\cLink2.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\cLoop.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\cWindSoul.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib32\efolder.cpp">
+      <Filter>lib32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libfolder\cFolder.cpp">
+      <Filter>libfolder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libutil\cReader.cpp">
+      <Filter>libutil</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\libwindsoul\alpha16.obj">
+      <Filter>libwindsoul</Filter>
+    </Object>
+    <Object Include="..\libwindsoul\blit16.obj">
+      <Filter>libwindsoul</Filter>
+    </Object>
+    <Object Include="..\libwindsoul\box16.obj">
+      <Filter>libwindsoul</Filter>
+    </Object>
+    <Object Include="..\libwindsoul\font16.obj">
+      <Filter>libwindsoul</Filter>
+    </Object>
+    <Object Include="..\libwindsoul\string.obj">
+      <Filter>libwindsoul</Filter>
+    </Object>
+    <Object Include="..\libwindsoul\surface.obj">
+      <Filter>libwindsoul</Filter>
+    </Object>
+    <Object Include="..\libwindsoul\text16.obj">
+      <Filter>libwindsoul</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ra2.ico" />
+    <Image Include="xyq.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="lib5.rc" />
+  </ItemGroup>
+</Project>
